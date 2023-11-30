@@ -4,7 +4,7 @@ package firstlab;
 public class TestTravelAgency {
     public static void main(String[] args) {
         // Створення об'єктів для тестування
-        Customer customer1 = new Customer("Anton Lyzun", 30);
+        Customer customer1 = new Customer("Anton Lyzun", 20);
         Customer customer2 = new Customer("Yuriy Tkach", 25);
 
         Tour tour1 = new Tour("Vacation", 1000.0);
@@ -39,6 +39,15 @@ public class TestTravelAgency {
                 ", Tour: " + order1.getTour().getType());
         System.out.println("Order Total Price: $" + order1.getTour().getPrice());
 
+        System.out.println("Customer Name: " + customer2.getName());
+        System.out.println("Customer Age: " + customer2.getAge());
+        System.out.println("Tour Type: " + tour2.getType());
+        System.out.println("Tour Price: $" + tour2.getPrice());
+        System.out.println("Discount Percentage: " + discount2.getDiscountPercentage() + "%");
+
+        System.out.println("\nOrder Details - Customer: " + order2.getCustomer().getName() +
+                ", Tour: " + order2.getTour().getType());
+        System.out.println("Order Total Price: $" + order2.getTour().getPrice());
     }
 
 }
