@@ -39,7 +39,6 @@ public class TestTravelAgency {
                 ", Tour: " + order1.getTour().getType());
         System.out.println("Order Total Price: $" + order1.getTour().getPrice());
 
-        // Додайте інші тести для перевірки роботи системи
     }
 
 }
