@@ -25,6 +25,5 @@ public class TravelAgency {
     public void addDiscount(Discount discount) {
         discounts.add(discount);
     }
-
-    // Можна додати інші методи для роботи з клієнтами, турами та знижками
+    
 }
