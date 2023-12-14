@@ -25,5 +25,5 @@ public class TravelAgency {
     public void addDiscount(Discount discount) {
         discounts.add(discount);
     }
-    
+
 }
